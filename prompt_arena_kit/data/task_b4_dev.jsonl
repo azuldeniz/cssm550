@@ -1,0 +1,20 @@
+{"id": "B4001", "text": "They fixed our street in a week.", "label": "TRUST_COMPETENCE", "difficulty": "easy"}
+{"id": "B4002", "text": "The rubbish is collected on time and the parks are clean.", "label": "TRUST_COMPETENCE", "difficulty": "easy"}
+{"id": "B4003", "text": "I would say yes, mostly, though it is hard to say; things do seem to work better than a few years ago.", "label": "TRUST_COMPETENCE", "difficulty": "hard"}
+{"id": "B4004", "text": "Our mayor came to my mother's funeral. He is a good man.", "label": "TRUST_PERSONAL", "difficulty": "easy"}
+{"id": "B4005", "text": "The clerk at the registry helped me for an hour without being asked.", "label": "TRUST_PERSONAL", "difficulty": "easy"}
+{"id": "B4006", "text": "I know the deputy mayor from the football club and I trust what he says, whatever the council does.", "label": "TRUST_PERSONAL", "difficulty": "hard"}
+{"id": "B4007", "text": "Everyone knows contracts go to the mayor's cousins.", "label": "DISTRUST_CORRUPTION", "difficulty": "easy"}
+{"id": "B4008", "text": "You need to pay somebody to get a permit moving.", "label": "DISTRUST_CORRUPTION", "difficulty": "easy"}
+{"id": "B4009", "text": "They say the new market was built for the public, but funny how the builder bought a villa that same year.", "label": "DISTRUST_CORRUPTION", "difficulty": "hard"}
+{"id": "B4010", "text": "Nothing works. The water was off for two weeks.", "label": "DISTRUST_INCOMPETENCE", "difficulty": "easy"}
+{"id": "B4011", "text": "They promised a clinic three years ago and there is just a fence.", "label": "DISTRUST_INCOMPETENCE", "difficulty": "easy"}
+{"id": "B4012", "text": "I don't think they are dishonest, they just cannot seem to finish anything.", "label": "DISTRUST_INCOMPETENCE", "difficulty": "hard"}
+{"id": "B4013", "text": "I don't know.", "label": "NO_OPINION", "difficulty": "easy"}
+{"id": "B4014", "text": "Don't follow politics.", "label": "NO_OPINION", "difficulty": "easy"}
+{"id": "B4015", "text": "Well, some things yes, some things no, it depends on the day, I suppose.", "label": "NO_OPINION", "difficulty": "hard"}
+{"id": "B4016", "text": "Bus lines were extended to our district this year.", "label": "TRUST_COMPETENCE", "difficulty": "easy"}
+{"id": "B4017", "text": "Streetlights have been out since spring.", "label": "DISTRUST_INCOMPETENCE", "difficulty": "easy"}
+{"id": "B4018", "text": "They give jobs to relatives, not to the qualified.", "label": "DISTRUST_CORRUPTION", "difficulty": "easy"}
+{"id": "B4019", "text": "My neighbour works there and she is honest, so I trust them.", "label": "TRUST_PERSONAL", "difficulty": "easy"}
+{"id": "B4020", "text": "No idea.", "label": "NO_OPINION", "difficulty": "easy"}

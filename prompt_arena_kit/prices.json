@@ -1,0 +1,56 @@
+{
+  "_note": "USD per MILLION tokens. OpenAI prices read from developers.openai.com model pages on 24 Nov 2026 (standard tier, text). A null price makes the harness refuse that model. 'mock' is fake and free. 'student_allowed' limits which models students may call (gpt-5.4 is about 12x the cost of nano); instructor scripts pass allowed_models='all'.",
+  "default_model": {
+    "openai": "gpt-5-nano",
+    "mock": "mock"
+  },
+  "models": {
+    "mock": {
+      "in": 0.1,
+      "out": 0.5,
+      "tier": "mock (fake, realistic cheap price)"
+    },
+    "gpt-5.4-nano": {
+      "in": 0.2,
+      "out": 1.25,
+      "tier": "small reasoning-capable (effort arms)"
+    },
+    "gpt-5.4-mini": {
+      "in": 0.75,
+      "out": 4.5,
+      "tier": "cheap-good: best quality in class"
+    },
+    "gpt-5.4": {
+      "in": 2.5,
+      "out": 15.0,
+      "tier": "large"
+    },
+    "gpt-4.1-mini": {
+      "in": 0.4,
+      "out": 1.6,
+      "tier": "small-nonreasoning"
+    },
+    "gpt-4o-mini": {
+      "in": 0.15,
+      "out": 0.6,
+      "tier": "cheap and simple (non-reasoning)"
+    },
+    "gpt-5-nano": {
+      "in": 0.05,
+      "out": 0.4,
+      "tier": "class default: weakest allowed; hidden reasoning tokens (about 3x the cost of gpt-4o-mini per run)"
+    },
+    "gpt-5-mini": {
+      "in": 0.25,
+      "out": 2.0,
+      "tier": "cheap-good"
+    }
+  },
+  "student_allowed": [
+    "gpt-5-nano",
+    "gpt-4o-mini",
+    "gpt-5.4-nano",
+    "gpt-5.4-mini",
+    "mock"
+  ]
+}

@@ -1,0 +1,18 @@
+{"id": "B1001", "text": "Mahallemizde üç gündür su yok, kimse ilgilenmiyor.", "label": "ALTYAPI"}
+{"id": "B1002", "text": "Sokaktaki çukur yüzünden dün bir araba hasar gördü.", "label": "ALTYAPI"}
+{"id": "B1003", "text": "Harika, yine yol çalışması var, bu mahallede yol hiç bitmeyecek galiba :)", "label": "ALTYAPI"}
+{"id": "B1004", "text": "Üç gündür çöpler alınmadı, sokak kokudan geçilmiyor.", "label": "TEMIZLIK"}
+{"id": "B1005", "text": "Parktaki çöp kutuları taşmış, her yer pis.", "label": "TEMIZLIK"}
+{"id": "B1006", "text": "Konteynerin yanına bırakılan eski koltuklar haftalardır duruyor.", "label": "TEMIZLIK"}
+{"id": "B1007", "text": "Otobüs 47 her sabah yarım saat geç geliyor, işe yetişemiyoruz.", "label": "ULASIM"}
+{"id": "B1008", "text": "Metro durağında yürüyen merdiven bozuk, yaşlılar çok zorlanıyor.", "label": "ULASIM"}
+{"id": "B1009", "text": "Akşam 9'dan sonra hiç dolmuş yok, eve nasıl gidelim?", "label": "ULASIM"}
+{"id": "B1010", "text": "Gece 2'ye kadar bar müziği yüzünden uyuyamıyoruz.", "label": "GURULTU_GUVENLIK"}
+{"id": "B1011", "text": "Sokak lambaları yanmıyor, geceleri yürümeye korkuyoruz.", "label": "GURULTU_GUVENLIK"}
+{"id": "B1012", "text": "Parkta başıboş köpek sürüsü çocuklara saldırıyor.", "label": "GURULTU_GUVENLIK"}
+{"id": "B1013", "text": "Ruhsat başvurum için 3 kez gittim, her seferinde başka evrak istediler.", "label": "BELEDIYE_HIZMETI"}
+{"id": "B1014", "text": "Belediye ofisinde memur bana çok kaba davrandı.", "label": "BELEDIYE_HIZMETI"}
+{"id": "B1015", "text": "Dilekçemi iki ay önce verdim, hâlâ cevap yok.", "label": "BELEDIYE_HIZMETI"}
+{"id": "B1016", "text": "Belediye başkanına başarılar dilerim.", "label": "DIGER"}
+{"id": "B1017", "text": "Kedim kayboldu, gören olursa haber versin.", "label": "DIGER"}
+{"id": "B1018", "text": "Hafta sonu festival ne zaman başlıyor?", "label": "DIGER"}

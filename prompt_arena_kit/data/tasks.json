@@ -1,0 +1,193 @@
+{
+ "A": {
+  "name": "The Harbor Gazette: strike framing",
+  "discipline": "History",
+  "type": "classification",
+  "labels": [
+   "SYMPATHETIC",
+   "HOSTILE",
+   "NEUTRAL_REPORT",
+   "MERCHANT_COST",
+   "OFF_TOPIC"
+  ],
+  "codebook": {
+   "SYMPATHETIC": "Presents the strikers' grievances as legitimate, or strikers as victims or heroes.",
+   "HOSTILE": "Presents strikers as criminals, dangerous, ungrateful or manipulated.",
+   "NEUTRAL_REPORT": "Reports facts (dates, numbers, events) without evaluative language.",
+   "MERCHANT_COST": "Frames the strike mainly through economic harm to trade, ships or the town.",
+   "OFF_TOPIC": "Not about the strike."
+  },
+  "files": {
+   "dev": "task_a_dev.jsonl",
+   "test": "task_a_test.jsonl",
+   "audit": "task_a_audit.jsonl"
+  },
+  "brief": "A historian transcribed snippets from three newspapers of a fictional port town (1880s). Code how each snippet frames the dockworkers' strike."
+ },
+ "B1": {
+  "name": "Citizen complaints (Turkish)",
+  "discipline": "Political science",
+  "type": "classification",
+  "labels": [
+   "ALTYAPI",
+   "TEMIZLIK",
+   "ULASIM",
+   "GURULTU_GUVENLIK",
+   "BELEDIYE_HIZMETI",
+   "DIGER"
+  ],
+  "codebook": {
+   "ALTYAPI": "Roads, water, sewage, electricity, street works: physical infrastructure problems.",
+   "TEMIZLIK": "Garbage collection, litter, dirty public spaces, bulky waste.",
+   "ULASIM": "Buses, metro, minibuses, schedules, stops and transport accessibility.",
+   "GURULTU_GUVENLIK": "Noise, public safety, lighting at night, stray animals, disorder.",
+   "BELEDIYE_HIZMETI": "Quality of municipal service: paperwork, delays, staff behaviour, unanswered petitions.",
+   "DIGER": "Praise, personal notices, questions, anything not about a municipal problem."
+  },
+  "files": {
+   "dev": "task_b1_dev.jsonl",
+   "test": "task_b1_test.jsonl"
+  }
+ },
+ "B2": {
+  "name": "Parliament speeches of Valdoria",
+  "discipline": "Political science",
+  "type": "classification",
+  "labels": [
+   "HEALTH",
+   "EDUCATION",
+   "TAXATION",
+   "DEFENCE",
+   "MIGRATION",
+   "ENVIRONMENT",
+   "LABOUR",
+   "JUSTICE",
+   "AGRICULTURE",
+   "FOREIGN_AFFAIRS",
+   "INFRASTRUCTURE",
+   "OTHER"
+  ],
+  "codebook": {
+   "HEALTH": "Hospitals, doctors, medicines, public health insurance, epidemics.",
+   "EDUCATION": "Schools, universities, teachers, curricula, student funding.",
+   "TAXATION": "Taxes, duties, tax reform, public revenue and tax fairness.",
+   "DEFENCE": "Armed forces, military budget, conscription, national security.",
+   "MIGRATION": "Immigration, asylum, border control, integration of newcomers.",
+   "ENVIRONMENT": "Pollution, climate, protected areas, energy transition.",
+   "LABOUR": "Wages, unions, working hours, unemployment, workplace safety.",
+   "JUSTICE": "Courts, police, prisons, criminal law, rule of law.",
+   "AGRICULTURE": "Farming, rural subsidies, land use, food production.",
+   "FOREIGN_AFFAIRS": "Treaties, diplomacy, trade agreements, relations with other states.",
+   "INFRASTRUCTURE": "Roads, railways, ports, housing construction, public works.",
+   "OTHER": "Procedural remarks, greetings, anything not fitting the above. If a speech mixes topics, code the one the speaker spends most words on."
+  },
+  "files": {
+   "dev": "task_b2_dev.jsonl",
+   "test": "task_b2_test.jsonl"
+  }
+ },
+ "B3": {
+  "name": "Field notes: the Teru",
+  "discipline": "Anthropology",
+  "type": "classification",
+  "labels": [
+   "GIFT_EXCHANGE",
+   "MARRIAGE_NEGOTIATION",
+   "ANCESTOR_RITUAL",
+   "DISPUTE_MEDIATION",
+   "EVERYDAY_LABOR",
+   "OTHER"
+  ],
+  "codebook": {
+   "GIFT_EXCHANGE": "Goods or services given with an expectation of a later return, between households. Look for baskets, honey, plums, reciprocal sending.",
+   "MARRIAGE_NEGOTIATION": "Talks, visits or payments about a proposed or arranged marriage, including bride-gifts and go-betweens.",
+   "ANCESTOR_RITUAL": "Offerings, songs or visits addressed to dead kin or the lineage's founders.",
+   "DISPUTE_MEDIATION": "A conflict is discussed or settled with the help of an elder or neutral person.",
+   "EVERYDAY_LABOR": "Routine work such as herding, weaving, carrying water, tending terraces, with no ceremonial frame.",
+   "OTHER": "None of the above."
+  },
+  "files": {
+   "dev": "task_b3_dev.jsonl"
+  }
+ },
+ "B4": {
+  "name": "Trust in local government (survey answers)",
+  "discipline": "Social psychology",
+  "type": "classification",
+  "labels": [
+   "TRUST_COMPETENCE",
+   "TRUST_PERSONAL",
+   "DISTRUST_CORRUPTION",
+   "DISTRUST_INCOMPETENCE",
+   "NO_OPINION"
+  ],
+  "codebook": {
+   "TRUST_COMPETENCE": "Trusts the local government because it delivers services well or is effective.",
+   "TRUST_PERSONAL": "Trusts because of a specific person or personal contact (the mayor, a clerk who helped).",
+   "DISTRUST_CORRUPTION": "Distrusts because of bribery, favouritism or misuse of money.",
+   "DISTRUST_INCOMPETENCE": "Distrusts because services fail or officials are ineffective.",
+   "NO_OPINION": "Says they do not know, do not care, or gives no reason either way."
+  },
+  "files": {
+   "dev": "task_b4_dev.jsonl"
+  }
+ },
+ "C": {
+  "name": "Millbrook Terrace interviews",
+  "discipline": "Sociology",
+  "type": "extraction",
+  "schema": {
+   "fields": {
+    "speaker_role": "one of: long_term_resident, newcomer, shop_owner, landlord, other",
+    "perceived_change": "one of: positive, negative, mixed, none (the speaker's view of how the neighbourhood has changed)",
+    "emotion": "one of: anger, nostalgia, hope, resignation, pride, none (the dominant emotion)",
+    "institution_mentioned": "list of strings: institutions named (council, school, police, bank, ...); empty list if none",
+    "years_in_neighborhood": "integer number of years the speaker has been there, or null if not stated or not computable"
+   }
+  },
+  "files": {
+   "dev": "task_c_dev.jsonl"
+  }
+ },
+ "E": {
+  "name": "City bike-lane debate frames",
+  "discipline": "Communication studies",
+  "type": "classification",
+  "labels": [
+   "SAFETY",
+   "ECONOMY",
+   "LIFESTYLE",
+   "CONSPIRACY",
+   "OFF_TOPIC"
+  ],
+  "codebook": {
+   "SAFETY": "Frames the lanes in terms of accidents, injuries, protection or danger.",
+   "ECONOMY": "Frames the lanes in terms of cost, shops, jobs, taxes or business.",
+   "LIFESTYLE": "Frames the lanes in terms of culture, habits, health, identity or how people want to live.",
+   "CONSPIRACY": "Claims a hidden plan or elite scheme behind the lanes.",
+   "OFF_TOPIC": "Not about the bike lanes."
+  },
+  "files": {
+   "dev": "task_e_dev.jsonl",
+   "robust": "task_e_robust.jsonl"
+  }
+ },
+ "F": {
+  "name": "Court-case severity (name-swap pairs)",
+  "discipline": "Criminology and law",
+  "type": "classification",
+  "labels": [
+   "MINOR",
+   "MODERATE",
+   "SERIOUS"
+  ],
+  "codebook": {
+   "MINOR": "Low harm, small value, no injury, minor penalty.",
+   "MODERATE": "Material loss or injury, but not life-threatening or large-scale.",
+   "SERIOUS": "Serious injury, death, large-scale harm or violence/weapons."
+  },
+  "files": {
+   "dev": "task_f_pairs.jsonl"
+  }
+ }
+}
